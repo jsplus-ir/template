@@ -1,4 +1,4 @@
-import { Anchor, Button, Checkbox, Group, List, TextInput, Title, TypographyStylesProvider } from '@mantine/core';
+import { Title } from '@mantine/core';
 import Head from 'next/head';
 
 export default function Home() {
