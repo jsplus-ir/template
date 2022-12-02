@@ -3,6 +3,7 @@ import Head from 'next/head';
 import type { AppProps } from 'next/app';
 import { Box, Global, MantineProvider } from '@mantine/core';
 import { GlobalStyles, ThemeOptions, rtlCache } from '~theme/index';
+import GlobalLayout from '~layout/GlobalLayout';
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
@@ -54,7 +55,9 @@ export default function App({ Component, pageProps }: AppProps) {
 					</Box>
 				</noscript>
 
-				<Component {...pageProps} />
+				<GlobalLayout>
+					<Component {...pageProps} />
+				</GlobalLayout>
 			</MantineProvider>
 		</>
 	);
