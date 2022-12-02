@@ -19,6 +19,7 @@
 			"~root/*": ["*"],
 			"~assets/*": ["assets/*"],
 			"~components/*": ["components/*"],
+			"~constants/*": ["constants/*"],
 			"~layout/*": ["layout/*"],
 			"~pages/*": ["pages/*"],
 			"~sections/*": ["sections/*"],
