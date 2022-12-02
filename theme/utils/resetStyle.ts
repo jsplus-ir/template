@@ -132,7 +132,7 @@ const resetStyle = (theme: MantineTheme): CSSObject => {
 		/**
 		 * My Style Reset
 		 */
-		'a,a::after,a::before,button::after,button::before,a svg,button svg': {
+		'a,a::after,a::before,button::after,button::before': {
 			transition: 'all 0.15s ease',
 		},
 
