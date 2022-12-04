@@ -1,5 +1,4 @@
-import { Box, NavLink } from '@mantine/core';
-import { useState } from 'react';
+import { Box } from '@mantine/core';
 import { mainNavbarList } from '~constants/index';
 import { NavbarItem } from './NavbarItem';
 
@@ -8,8 +7,6 @@ import { NavbarItem } from './NavbarItem';
  * منوی ناوبری اصلی در هدر صفحه
  */
 const MainNavbar = () => {
-	const [isChildOpen, setIsChildOpen] = useState<boolean>(false);
-
 	return (
 		<Box
 			component="nav"
