@@ -26,11 +26,14 @@ const MainNavbar = () => {
 						sx={(theme) => ({
 							'position': 'relative',
 
+							'.mantine-rtl-NavLink-root, .mantine-rtl-NavLink-label, .mantine-rtl-NavLink-label': {
+								fontWeight: 600,
+								fontSize: '17px',
+							},
+
 							'.mantine-rtl-NavLink-root': {
 								'color': '#fff',
-								'fontSize': '18px',
 								'padding': '8px 12px',
-								'fontWeight': 600,
 								'transition': 'color 0.2s ease',
 
 								'&:hover, &[data-expanded="true"]': {

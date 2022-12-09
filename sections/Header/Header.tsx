@@ -1,6 +1,6 @@
 import { Grid, Header as MantineHeader } from '@mantine/core';
 import { Container } from '@mantine/core';
-import { MainNavbar } from '~components/index';
+import { MainNavbar, Logo } from '~components/index';
 
 const Header = () => {
 	return (
@@ -17,7 +17,7 @@ const Header = () => {
 						<MainNavbar />
 					</Grid.Col>
 					<Grid.Col span={12} xl={3}>
-						2
+						<Logo />
 					</Grid.Col>
 				</Grid>
 			</Container>
