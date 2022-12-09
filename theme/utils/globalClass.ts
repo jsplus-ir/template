@@ -137,6 +137,7 @@ const importantBsClases: CSSObject = {
 	'.order-4': { order: '4 !important' },
 	'.order-5': { order: '5 !important' },
 	'.order-last': { order: '6 !important' },
+	'.m-0': { margin: '0 !important' },
 	'.m-auto': { margin: 'auto !important' },
 	'.mx-0': { marginLeft: '0 !important', marginRight: '0 !important' },
 	'.mx-auto': { marginLeft: 'auto !important', marginRight: 'auto !important' },
